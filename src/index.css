@@ -19,11 +19,37 @@ a:active{
   color: rgb(226, 221, 221);
   }
 
-.blurred-purple-btn{
-  background-color: #A88AF0;
-  padding: 2px 6px;
-  border-radius: 8px;
-}
+  .click-btn {
+    display: flex;
+    height: 40px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    line-height: 35px;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    transition: all 0.35s;
+    box-sizing: border-box;
+  }
+
+  .btn-style5 {
+    color: #979695;
+    border-color: #979695;
+    box-shadow: 0.3rem 0.3rem 0 #A88AF0;
+    &:hover {
+      color: #fff;
+      border-color: #A88AF0;
+      box-shadow: -0.3rem 0.3rem 0 #979695;
+    }
+  }
+
+  .btn-style5:hover{
+    color: #fff;
+  }
 
 .neon-text {
   animation: lights 5s 750ms linear infinite;
