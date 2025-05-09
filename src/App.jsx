@@ -1,12 +1,9 @@
-import { useState } from 'react'
-
+import Header from "./Components/Header"
 function App() {
 
 
   return (
-    <>
-      <h1>removed everything</h1>
-    </>
+      <Header/>
   )
 }
 
