@@ -1,5 +1,6 @@
 import Header from "./Components/Header.jsx";
 import Bio from './Components/Bio.jsx';
+import TechStack from "./Components/TechStack.jsx";
 function App() {
 
 
@@ -8,6 +9,7 @@ function App() {
      <Header/>
       <main>
         <Bio/>
+        <TechStack/>
       </main>
     </>
 
