@@ -128,4 +128,37 @@ const techStack = [
   },
 ]
 
+export const projects = [
+  {
+    id: 1,
+    title: 'Food to go',
+    description: '',
+    image: './assets/projects/foodToGo.png'
+  },
+  {
+    id: 2,
+    title: 'Cooking Recipes',
+    description: '',
+    image: './assets/projects/recipeApp.png'
+  },
+  {
+    id: 3,
+    title: 'Hexplore',
+    description: '',
+    image: './assets/projects/hexplore.png'
+  },
+  {
+    id: 4,
+    title: 'Smoke and Go',
+    description: '',
+    image: './assets/projects/smoke.png'
+  },
+  {
+    id: 5,
+    title: 'Watch List',
+    description: '',
+    image: './assets/projects/watchList.png'
+  },
+]
+
 export default techStack;
