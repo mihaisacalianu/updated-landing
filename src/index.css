@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil');
+
 
 *,
 *::before,
@@ -9,6 +11,9 @@
 body{
   background-color: #0C0C0D;
   color: white;
+  font-family: "Allerta Stencil", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 a:hover{
@@ -55,6 +60,14 @@ a:active{
   animation: lights 5s 750ms linear infinite;
   margin-right: 1rem;
 }
+
+.card:hover{
+  animation-name: glow;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+
 @keyframes lights {
   0% {
     color: hsl(230, 40%, 80%);
@@ -101,4 +114,10 @@ a:active{
       -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
   }
 
+}
+
+
+@keyframes glow {
+  50%{box-shadow: 0px 0px 50px #A88AF0;
+      transform: scale(1.08,1.08)}
 }
