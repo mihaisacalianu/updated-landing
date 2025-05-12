@@ -1,3 +1,9 @@
+import foodToGo from "../public/projects/foodToGo.png";
+import cookingRecipe from "../public/projects/recipeApp.png";
+import hexplore from "../public/projects/hexplore.png";
+import smokeAndGo from "../public/projects/smoke.png";
+import watchList from "../public/projects/watchList.png";
+
 const techStack = [
   {
     id: 1,
@@ -133,35 +139,35 @@ export const projects = [
     id: 1,
     title: 'Food to go',
     description: 'Designed and built a responsive food delivery SPA using React. Users can browse a menu, add meals to their cart, and simulate placing an order. Focused on reusable components, state management, and user-friendly design.',
-    image: '/projects/foodToGo.png',
+    image: foodToGo,
     link: 'https://github.com/mihaisacalianu/foodDeliveryApp'
   },
   {
     id: 2,
     title: 'Cooking Recipes',
     description: "Responsive web app built with React that lets users search, view, and explore a wide variety of meal ideas using the MealDB API. It features dynamic search, recipe detail pages, and a clean, user-friendly interface designed to make finding your next meal easy and enjoyable.",
-    image: '/projects/recipeApp.png',
+    image: cookingRecipe,
     link: 'https://github.com/mihaisacalianu/recipe-app'
   },
   {
     id: 3,
     title: 'Hexplore',
     description: "Team-based full-stack project using Ruby on Rails. Focused on backend,logic: implemented user authentication, database design, and routing.Also contributed to frontend layout and interactive map features using Turf.js and Mapbox API.",
-    image: '/projects/hexplore.png',
+    image: hexplore,
     link: 'https://www.hexplore.io/'
   },
   {
     id: 4,
     title: 'Smoke and Go',
     description: "Developed and contributed in a team of four during a week-long sprint.Built a full-stack application featuring user authentication, a dynamic listing system, and a map interface for BBQ locations. Users can upload photos and manage listings. Built with Ruby on Rails, JavaScript, andMapbox API.",
-    image: '/projects/smoke.png',
+    image: smokeAndGo,
     link: 'https://smoke-n-go-mihaisacalianu-3c53f5136ac3.herokuapp.com/'
   },
   {
     id: 5,
     title: 'Watch List',
     description: "Full-stack web application built with Ruby on Rails and JavaScript, integrated with the IMDb API. It allows users to search for movies, view details, and create a personalized watchlist. Designed with a clean UI and seamless user experience, it’s a practical tool for movie lovers to track films they want to see.",
-    image: '/projects/watchList.png',
+    image: watchList,
     link: 'https://github.com/mihaisacalianu/rails-watch-list'
   },
 ]
