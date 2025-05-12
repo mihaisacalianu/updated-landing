@@ -14,4 +14,4 @@ function Edu() {
   )
 }
 
-export default Edu
+export default Edu;

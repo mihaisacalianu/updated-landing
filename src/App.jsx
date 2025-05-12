@@ -4,6 +4,7 @@ import TechStack from "./Components/TechStack.jsx";
 import Projects from "./Components/Projects.jsx";
 import SideNav from "./Components/SideNav.jsx";
 import Edu from "./Components/Edu.jsx";
+import ContactForm from "./Components/ContactForm.jsx";
 function App() {
 
 
@@ -16,6 +17,7 @@ function App() {
         <TechStack/>
         <Projects/>
         <Edu/>
+        <ContactForm/>
       </main>
     </>
 

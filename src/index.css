@@ -121,3 +121,16 @@ a:active{
   50%{box-shadow: 0px 0px 50px #A88AF0;
       transform: scale(1.08,1.08)}
 }
+
+input, textarea {
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+label {
+  text-align: left;
+  font-size: 1.2rem;
+}
