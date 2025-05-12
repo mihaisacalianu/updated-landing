@@ -128,4 +128,42 @@ const techStack = [
   },
 ]
 
+export const projects = [
+  {
+    id: 1,
+    title: 'Food to go',
+    description: 'Designed and built a responsive food delivery SPA using React. Users can browse a menu, add meals to their cart, and simulate placing an order. Focused on reusable components, state management, and user-friendly design.',
+    image: '../public/projects/foodToGo.png',
+    link: 'https://github.com/mihaisacalianu/foodDeliveryApp'
+  },
+  {
+    id: 2,
+    title: 'Cooking Recipes',
+    description: "Responsive web app built with React that lets users search, view, and explore a wide variety of meal ideas using the MealDB API. It features dynamic search, recipe detail pages, and a clean, user-friendly interface designed to make finding your next meal easy and enjoyable.",
+    image: '../public/projects/recipeApp.png',
+    link: 'https://github.com/mihaisacalianu/recipe-app'
+  },
+  {
+    id: 3,
+    title: 'Hexplore',
+    description: "Team-based full-stack project using Ruby on Rails. Focused on backend,logic: implemented user authentication, database design, and routing.Also contributed to frontend layout and interactive map features using Turf.js and Mapbox API.",
+    image: '../public/projects/hexplore.png',
+    link: 'https://www.hexplore.io/'
+  },
+  {
+    id: 4,
+    title: 'Smoke and Go',
+    description: "Developed and contributed in a team of four during a week-long sprint.Built a full-stack application featuring user authentication, a dynamic listing system, and a map interface for BBQ locations. Users can upload photos and manage listings. Built with Ruby on Rails, JavaScript, andMapbox API.",
+    image: '../public/projects/smoke.png',
+    link: 'https://smoke-n-go-mihaisacalianu-3c53f5136ac3.herokuapp.com/'
+  },
+  {
+    id: 5,
+    title: 'Watch List',
+    description: "Full-stack web application built with Ruby on Rails and JavaScript, integrated with the IMDb API. It allows users to search for movies, view details, and create a personalized watchlist. Designed with a clean UI and seamless user experience, it’s a practical tool for movie lovers to track films they want to see.",
+    image: '../public/projects/watchList.png',
+    link: 'https://github.com/mihaisacalianu/rails-watch-list'
+  },
+]
+
 export default techStack;
