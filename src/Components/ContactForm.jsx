@@ -8,7 +8,7 @@ function ContactForm() {
     <section id="contact" className='w-[100%] sm:w-[80%] mx-auto mt-20 bg-[#131315] p-10 sm:rounded-xl'>
       <h2 className='text-3xl text-left mb-10'>Get in touch!</h2>
       <p className='text-lg text-left mb-10'>Do you have any questions or any projects to discuss?</p>
-      <form action="" className="flex flex-col gap-4 sm:w-full items-center sm:items-start">
+      <form action="https://formspree.io/f/mblgkvoq" className="flex flex-col gap-4 sm:w-full items-center sm:items-start" method="POST" >
         <label htmlFor="name">Name</label>
         <input type="text" name='name' placeholder='Type your name here...'/>
         <label htmlFor="email">Email</label>
