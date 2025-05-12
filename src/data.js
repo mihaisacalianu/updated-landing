@@ -166,4 +166,22 @@ export const projects = [
   },
 ]
 
+export const education = [
+  {
+    id: 1,
+    title: 'Le Wagon - Web Development Bootcamp',
+    description: "Full-time, project-based training in modern web technologies. Built and deployed multiple applications in team environments.Gained hands-on experience in Agile teamwork, version control, and full-stack deployment. Learned and used technologies such as HTML, CSS, Bootstrap,JavaScript, SQL, Git, GitHub, Heroku and Ruby on Rails.",
+    image: 'https://avatars.githubusercontent.com/u/5470001?s=200&v=4',
+    link: 'https://www.lewagon.com/'
+},
+{
+  id: 2,
+  title: 'Birkbeck - University of London',
+  description: "Graduated BSc Information Systems and management",
+  image: 'https://upload.wikimedia.org/wikipedia/commons/7/7a/Birkbeck%2C_University_of_London.png',
+  link: 'https://www.bbk.ac.uk/'
+}
+
+]
+
 export default techStack;

@@ -1,7 +1,6 @@
 import React from 'react'
 
 function ProjectCard({project}) {
-  console.log(project.image);
   return (
     <article className='card border-[3px] border-[#A88AF0] rounded-xl pb-3 w-[80%] xl:w-[60%] sm:justify-self-center flex flex-col items-center'>
       <a href={project.link}>
