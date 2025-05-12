@@ -6,7 +6,7 @@ import { SiSlack } from "react-icons/si";
 import { ImWhatsapp } from "react-icons/im";
 
 function Bio() {
-  const sectionStyling = "sm:bg-[#131315] sm:p-10 sm:rounded-xl grid grid-flow-col grid-cols-1 grid-rows-2 justify-center items-center sm:flex sm:justify-between gap-5 w-[80%]  mx-10 sm:mx-auto mt-20 text-center sm:text-left";
+  const sectionStyling = "sm:h-[80dvh] sm:bg-[#131315] sm:p-10 sm:rounded-xl grid grid-flow-col grid-cols-1 grid-rows-2 justify-center items-center sm:flex sm:justify-between gap-5 w-[80%]  mx-10 sm:mx-auto mt-20 text-center sm:text-left";
   return (
     <section id="about" className={sectionStyling}>
       <div aria-label="Main Description" className=''>
