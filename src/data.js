@@ -177,7 +177,7 @@ export const education = [
 {
   id: 2,
   title: 'Birkbeck - University of London',
-  description: "Graduated BSc Information Systems and management",
+  description: "Graduated BSc Information Systems and Management",
   image: 'https://upload.wikimedia.org/wikipedia/commons/7/7a/Birkbeck%2C_University_of_London.png',
   link: 'https://www.bbk.ac.uk/'
 }
